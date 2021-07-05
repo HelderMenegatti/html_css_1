@@ -4,18 +4,55 @@
     <head>
         <meta charser="UTF-8">
         <title>Podutos - Barbearia Alura</title>
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="produtos.css"> 
     </head>
 
 
     <body>
         <header>
-            <h1><img src="logo.png"></h1>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="produtos.html">Produtos</a></li>
-                <li><a href="contatos.html">Contatos</a></li>
-            </ul>
+            <div class= "caixa">
+                <h1><img src="logo.png"></h1>
+            
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contatos.html">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>      
         </header>
+
+        <main>
+            <ul class="produtos">
+                <li>
+                    <h2>Cabelo</h2>
+                    <img src="cabelo.jpg">
+                    <p class="produtos-descricao">Na tesoura ou na maquina, como o cliente preferir.</p>
+                    <p class="produtos-preco">$ 25,00</p>
+                </li>
+
+                <li>
+                    <h2>Barba</h2>
+                    <img src="barba.jpg">
+                    <p class="produtos-descricao">Corte e desenho proficional de barba.</p>
+                    <p class="produtos-preco">$ 18,00</p>
+                </li>
+
+                <li>
+                    <h2>Cabelo + Barba</h2>
+                    <img src="cabelo+barba.jpg">
+                    <p class="produtos-descricao">Pacote completo de cabelo e barba.</p>
+                    <p class="produtos-preco">$ 35,00</p>
+                </li>
+            </ul>
+        </main>
+
+
+        <footer>
+            <img src="logo-branco.png">
+            <p class="copyright">&copy; copyright Barbearia Alura - 2021</p>
+        </footer>
     </body>
 </html>     
